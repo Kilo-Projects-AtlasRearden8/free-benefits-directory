@@ -1,0 +1,14 @@
+{
+  "name": "free-benefits-directory",
+  "version": "1.0.0",
+  "description": "Freebies directory: free benefits and assistance programs — how to qualify, documents needed, how to apply, and where to get local help. Markdown-sourced, static HTML, client-side search. By Asdale Dynamics, LLC.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "test": "node test/verify.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

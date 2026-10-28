@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "title": "Freebies Directory",
+    "subtitle": "Free benefits and assistance programs: how to qualify, documents needed, how to apply, and where to get local help.",
+    "credit": "Asdale Dynamics, LLC",
+    "generated": "Build with `node build.js`. Education only — not legal, financial, or medical advice.",
+    "disclaimer": "This directory is for educational purposes only. It is not legal, financial, tax, or medical advice. Program rules, income limits, and links change. Verify details with the official agency or your local office before applying."
+  },
+  "categories": [
+    {
+      "key": "food",
+      "name": "Food & Nutrition",
+      "description": "Help affording groceries, meals for kids, and food for seniors."
+    },
+    {
+      "key": "health",
+      "name": "Health Care",
+      "description": "Low-cost or free medical, dental, vision, and mental health care."
+    },
+    {
+      "key": "housing",
+      "name": "Housing & Utilities",
+      "description": "Rent help, utility bill assistance, and affordable housing."
+    },
+    {
+      "key": "income",
+      "name": "Income & Cash Assistance",
+      "description": "Monthly cash benefits, disability income, and unemployment help."
+    },
+    {
+      "key": "education",
+      "name": "Education & Child Care",
+      "description": "Help paying for school, college, and child care."
+    },
+    {
+      "key": "veterans",
+      "name": "Veterans Benefits",
+      "description": "Health care, disability compensation, pensions, and education for veterans and families."
+    },
+    {
+      "key": "disability",
+      "name": "Disability Services",
+      "description": "Income and job-support programs for people with disabilities."
+    }
+  ],
+  "programs": [
+    {
+      "id": "snap",
+      "category": "food",
+      "name": "SNAP (Supplemental Nutrition Assistance Program)",
+      "summary": "Monthly grocery benefits on an EBT card for people with low income.",
+      "whoQualifies": "Based on household income, size, expenses, and immigration/citizenship status. Most able-bodied adults without dependents must meet work requirements. Eligibility rules vary by state.",
+      "documents": "Photo ID; proof of income (pay stubs or benefit letters); proof of residency (utility bill or lease); Social Security numbers for household members; immigration documents if not a U.S. citizen.",
+      "howToApply": "Apply online through your state's SNAP office (find it via the official link below), by phone, or in person at a local office. You will usually complete an interview by phone or in person before benefits are approved.",
+      "localHelp": "Call 2-1-1 or contact your state SNAP office and local community action agency for application help.",
+      "officialUrl": "https://www.fns.usda.gov/snap"
+    },
+    {
+      "id": "wic",
+      "category": "food",
+      "name": "WIC (Special Supplemental Nutrition Program for Women, Infants, and Children)",
+      "summary": "Free healthy food, nutrition education, and breastfeeding support for pregnant people, new parents, and children under 5.",
+      "whoQualifies": "Pregnant, postpartum, or breastfeeding people, and infants and children up to age 5, who meet income guidelines and have a nutrition need. Many working families qualify.",
+      "documents": "Photo ID; proof of income; proof of residency; proof of pregnancy or child's age (birth certificate, medical record); immunization records for children.",
+      "howToApply": "Call your local WIC clinic to schedule an eligibility appointment. Appointments include a short health and nutrition screening.",
+      "localHelp": "Use the WIC clinic locator at the official site below, or call 2-1-1.",
+      "officialUrl": "https://www.fns.usda.gov/wic"
+    },
+    {
+      "id": "school-meals",
+      "category": "food",
+      "name": "National School Lunch and School Breakfast Programs",
+      "summary": "Free or low-price breakfast and lunch at school for eligible children.",
+      "whoQualifies": "Children in participating schools; based on household income or participation in SNAP, TANF, or FDPIR. Some schools offer free meals to all students (Community Eligibility Provision).",
+      "documents": "School meal application form (from your school district); proof of income if required; SNAP/TANF case number if categorical eligible.",
+      "howToApply": "Fill out a school meal application at your child's school or school district office. Apply any time during the school year.",
+      "localHelp": "Contact your child's school or school district nutrition office.",
+      "officialUrl": "https://www.fns.usda.gov/nslp"
+    },
+    {
+      "id": "summer-ebt",
+      "category": "food",
+      "name": "SUN Bucks (Summer EBT)",
+      "summary": "Groceries benefit for families with school-age children during summer months.",
+      "whoQualifies": "Children eligible for free or reduced-price school meals, including through SNAP, TANF, or Medicaid participation, depending on the state.",
+      "documents": "Usually automatic if already enrolled in SNAP, TANF, or free school meals; otherwise a state application with child's information and proof of eligibility.",
+      "howToApply": "Most states issue benefits automatically to eligible families. Check with your state's Summer EBT/SUN Bucks office to confirm or apply.",
+      "localHelp": "Contact your state education agency or Summer EBT office; schools can also help.",
+      "officialUrl": "https://www.fns.usda.gov/sun-bucks"
+    },
+    {
+      "id": "medicaid",
+      "category": "health",
+      "name": "Medicaid",
+      "summary": "Free or low-cost health coverage for adults, children, pregnant people, seniors, and people with disabilities who meet income rules.",
+      "whoQualifies": "Based on income, household size, disability, pregnancy, or age. Rules vary by state; some states expanded Medicaid to cover more low-income adults.",
+      "documents": "Photo ID; proof of income; Social Security number; proof of citizenship or immigration status; proof of residency; pregnancy or disability documents if applicable.",
+      "howToApply": "Apply online through HealthCare.gov or your state Medicaid agency, by phone, by mail, or in person at a local Medicaid office.",
+      "localHelp": "Call 2-1-1, visit a local Department of Human/Social Services office, or get free help from a Navigator or certified application counselor.",
+      "officialUrl": "https://www.medicaid.gov"
+    },
+    {
+      "id": "chip",
+      "category": "health",
+      "name": "CHIP (Children's Health Insurance Program)",
+      "summary": "Low-cost health and dental coverage for children in families that earn too much for Medicaid but cannot afford private insurance.",
+      "whoQualifies": "Children up to age 19 in families within state income limits. Pregnant people may be covered in some states.",
+      "documents": "Photo ID; proof of income; children's Social Security numbers or immigration documents; proof of residency.",
+      "howToApply": "Apply through your state Medicaid/CHIP agency, HealthCare.gov, InsureKidsNow.gov, or by phone/in person at a local office.",
+      "localHelp": "Call 1-877-KIDS-NOW (1-877-543-7669) or visit InsureKidsNow.gov for state contact information.",
+      "officialUrl": "https://www.insurekidsnow.gov"
+    },
+    {
+      "id": "medicare",
+      "category": "health",
+      "name": "Medicare",
+      "summary": "Federal health insurance for people 65+, younger people with disabilities, and people with end-stage renal disease.",
+      "whoQualifies": "Age 65 or older with sufficient work history (or spouse's); younger with SSDI for 24 months; any age with ALS or end-stage renal disease.",
+      "documents": "Social Security number; proof of age/citizenship; current health insurance information; work history records.",
+      "howToApply": "Apply online at SSA.gov, by phone at 1-800-772-1213, or in person at a Social Security office. Initial enrollment windows apply; late enrollment may cost more.",
+      "localHelp": "Contact your State Health Insurance Assistance Program (SHIP) for free, one-on-one Medicare counseling.",
+      "officialUrl": "https://www.medicare.gov"
+    },
+    {
+      "id": "hrsa-health-centers",
+      "category": "health",
+      "name": "HRSA-Funded Health Centers",
+      "summary": "Community clinics providing primary medical, dental, and mental health care on a sliding fee scale based on income.",
+      "whoQualifies": "Open to everyone, including people without insurance; uninsured and underinsured patients pay based on income and family size.",
+      "documents": "Photo ID; proof of income (for sliding-fee discount); insurance card if you have one.",
+      "howToApply": "Walk in or call to become a patient. Ask about the sliding-fee scale application at your first visit.",
+      "localHelp": "Find a nearby health center using the locator below.",
+      "officialUrl": "https://findahealthcenter.hrsa.gov"
+    },
+    {
+      "id": "section8",
+      "category": "housing",
+      "name": "Housing Choice Voucher Program (Section 8)",
+      "summary": "Rental assistance that helps very low-income families, seniors, and people with disabilities afford private-market housing.",
+      "whoQualifies": "Based on gross annual income and family size (generally below 50% of area median income). U.S. citizens and eligible non-citizens.",
+      "documents": "Photo ID; proof of income; Social Security numbers for all household members; proof of residency; birth certificates for children.",
+      "howToApply": "Apply through your local Public Housing Agency (PHA). Many waiting lists are long or closed; check which PHAs are accepting applications.",
+      "localHelp": "Contact your local Public Housing Agency or HUD office.",
+      "officialUrl": "https://www.hud.gov/program_offices/public_indian_housing/programs/hcv"
+    },
+    {
+      "id": "liheap",
+      "category": "housing",
+      "name": "LIHEAP (Low Income Home Energy Assistance Program)",
+      "summary": "Help paying home heating and cooling bills, plus weatherization and crisis assistance for shutoff prevention.",
+      "whoQualifies": "Based on household income (generally at or below 150% of federal poverty level or 60% of state median income). Rules vary by state.",
+      "documents": "Photo ID; recent utility bills; proof of income; proof of residency; Social Security numbers.",
+      "howToApply": "Apply through your state LIHEAP office or local community action agency before funds run out for the year.",
+      "localHelp": "Contact your local community action agency or call 2-1-1.",
+      "officialUrl": "https://www.acf.hhs.gov/liheap"
+    },
+    {
+      "id": "public-housing",
+      "category": "housing",
+      "name": "Public Housing",
+      "summary": "Government-owned rental homes for low-income families, seniors, and people with disabilities, with rent based on income.",
+      "whoQualifies": "Low-income families, seniors, and people with disabilities who are U.S. citizens or eligible non-citizens. Background checks apply.",
+      "documents": "Photo ID; proof of income; Social Security numbers; birth certificates; landlord references if requested.",
+      "howToApply": "Apply through your local Public Housing Agency. Waiting lists are common and may be closed.",
+      "localHelp": "Contact your local Public Housing Agency.",
+      "officialUrl": "https://www.hud.gov/program_offices/public_indian_housing/programs/ph"
+    },
+    {
+      "id": "lifeline",
+      "category": "housing",
+      "name": "Lifeline",
+      "summary": "Monthly discount on phone or internet service for qualifying low-income households.",
+      "whoQualifies": "Based on income or participation in SNAP, Medicaid, SSI, Federal Public Housing Assistance, Veterans Pension, or certain Tribal programs. One benefit per household.",
+      "documents": "Photo ID; proof of income or proof of participation in a qualifying program; address information.",
+      "howToApply": "Apply online at LifelineSupport.org or through a participating phone/internet company.",
+      "localHelp": "Contact participating wireless or internet providers in your area; call 2-1-1 for help.",
+      "officialUrl": "https://www.lifelinesupport.org"
+    },
+    {
+      "id": "tanf",
+      "category": "income",
+      "name": "TANF (Temporary Assistance for Needy Families)",
+      "summary": "Short-term cash assistance and support services for families with children.",
+      "whoQualifies": "Families with minor children (or pregnant people) meeting income and resource limits; work participation requirements usually apply.",
+      "documents": "Photo ID; proof of income and resources; children's birth certificates and Social Security numbers; proof of residency.",
+      "howToApply": "Apply at your state or local TANF/welfare office, often online or in person.",
+      "localHelp": "Contact your state TANF office or local Department of Human/Social Services.",
+      "officialUrl": "https://www.acf.hhs.gov/ofa/programs/tanf"
+    },
+    {
+      "id": "ssi",
+      "category": "income",
+      "name": "SSI (Supplemental Security Income)",
+      "summary": "Monthly cash payments for people aged 65+, blind, or disabled with limited income and resources.",
+      "whoQualifies": "Age 65+, blind, or disabled, with limited income and resources; U.S. citizens or certain eligible non-citizens.",
+      "documents": "Social Security card/number; birth certificate; proof of income and resources (bank statements); medical records for disability; proof of living arrangement.",
+      "howToApply": "Apply online at SSA.gov (for adults), by phone at 1-800-772-1213, or in person at a Social Security office.",
+      "localHelp": "Visit a local Social Security office; call 1-800-772-1213 to schedule.",
+      "officialUrl": "https://www.ssa.gov/ssi"
+    },
+    {
+      "id": "ssdi",
+      "category": "income",
+      "name": "SSDI (Social Security Disability Insurance)",
+      "summary": "Monthly benefits for people with a qualifying disability who have worked and paid Social Security taxes long enough.",
+      "whoQualifies": "Workers with a qualifying disability and sufficient work credits; certain family members may also receive benefits.",
+      "documents": "Social Security number; birth certificate; W-2s or tax returns; medical records and doctors' reports; work history.",
+      "howToApply": "Apply online at SSA.gov, by phone at 1-800-772-1213, or in person at a Social Security office.",
+      "localHelp": "Contact a local Social Security office or a disability advocate/attorney for application help.",
+      "officialUrl": "https://www.ssa.gov/disability"
+    },
+    {
+      "id": "unemployment",
+      "category": "income",
+      "name": "Unemployment Insurance (UI)",
+      "summary": "Temporary weekly payments for workers who lost a job through no fault of their own.",
+      "whoQualifies": "Unemployed or partially unemployed workers who meet state wage and work-history requirements and are able and available to work.",
+      "documents": "Social Security number; driver's license or state ID; employment history for the past 18 months (employer names, addresses, dates); reason for separation.",
+      "howToApply": "File a claim with your state unemployment agency online, by phone, or in person soon after losing your job.",
+      "localHelp": "Contact your state unemployment office or local American Job Center.",
+      "officialUrl": "https://www.dol.gov/agencies/eta/unemployment-insurance"
+    },
+    {
+      "id": "ccdf",
+      "category": "education",
+      "name": "Child Care and Development Fund (CCDF)",
+      "summary": "Subsidized child care vouchers to help low-income parents work, attend training, or go to school.",
+      "whoQualifies": "Parents or caregivers with children under 13 (or up to 19 if disabled) who meet income limits and activity requirements (work, job search, or education).",
+      "documents": "Photo ID; proof of income; proof of work, school, or training; children's birth certificates and immunization records.",
+      "howToApply": "Apply through your state or tribal child care agency. Waiting lists are common.",
+      "localHelp": "Contact your state child care subsidy agency or local child care resource and referral agency.",
+      "officialUrl": "https://www.acf.hhs.gov/occ/resource/ccdf-program"
+    },
+    {
+      "id": "head-start",
+      "category": "education",
+      "name": "Head Start and Early Head Start",
+      "summary": "Free early childhood education, health, nutrition, and family support services for young children.",
+      "whoQualifies": "Children from birth to age 5 from low-income families; children in foster care, homeless children, and children receiving SSI are categorically eligible.",
+      "documents": "Child's birth certificate; proof of income; proof of residency; immunization records.",
+      "howToApply": "Apply directly with a local Head Start program; enrollment is often year-round.",
+      "localHelp": "Use the Head Start locator below to find a program near you.",
+      "officialUrl": "https://eclkc.ohs.acf.hhs.gov/center-locator"
+    },
+    {
+      "id": "pell",
+      "category": "education",
+      "name": "Federal Pell Grants (via FAFSA)",
+      "summary": "Need-based grant money for college or career school that does not have to be repaid.",
+      "whoQualifies": "U.S. citizens or eligible non-citizens with financial need enrolled in an eligible degree or certificate program; must maintain satisfactory academic progress.",
+      "documents": "Social Security number; federal tax returns; records of untaxed income; FSA ID to sign the FAFSA online.",
+      "howToApply": "Complete the FAFSA at StudentAid.gov each year you are in school. List the schools you want to attend.",
+      "localHelp": "Contact your school's financial aid office or call 1-800-4-FED-AID.",
+      "officialUrl": "https://studentaid.gov"
+    },
+    {
+      "id": "eitc",
+      "category": "education",
+      "name": "Earned Income Tax Credit (EITC) and Free Tax Prep (VITA)",
+      "summary": "A refundable tax credit for low- to moderate-income workers, plus free tax return preparation through VITA.",
+      "whoQualifies": "Workers with earned income below IRS limits, with or without qualifying children; must file a tax return to claim it.",
+      "documents": "Social Security numbers for everyone on the return; W-2s and other income documents; prior-year tax return if available; bank account for direct deposit.",
+      "howToApply": "File a federal tax return and claim the EITC. For free preparation, visit a VITA site (income limits usually $67,000 or less).",
+      "localHelp": "Find a VITA site via the IRS locator or call 2-1-1.",
+      "officialUrl": "https://www.irs.gov/credits-deductions/earned-income-tax-credit"
+    },
+    {
+      "id": "va-health",
+      "category": "veterans",
+      "name": "VA Health Care",
+      "summary": "Medical, mental health, and specialty care for eligible veterans at VA clinics and hospitals.",
+      "whoQualifies": "Veterans who served on active duty and were discharged under conditions other than dishonorable; eligibility priority groups based on service history, disability, and income.",
+      "documents": "DD214 (discharge papers); photo ID; income and insurance information; military service records.",
+      "howToApply": "Apply online at VA.gov, by phone, by mail, or in person at a VA medical center.",
+      "localHelp": "Contact your nearest VA medical center or a Veterans Service Organization (VSO) for free claims and enrollment help.",
+      "officialUrl": "https://www.va.gov/health-care/"
+    },
+    {
+      "id": "va-disability",
+      "category": "veterans",
+      "name": "VA Disability Compensation",
+      "summary": "Monthly tax-free payments for veterans with disabilities connected to military service.",
+      "whoQualifies": "Veterans with a current illness or injury that happened or got worse during active service, and a discharge other than dishonorable.",
+      "documents": "DD214; service medical records; current medical records; doctor opinions linking condition to service (for some claims).",
+      "howToApply": "File a claim online at VA.gov, by mail, in person at a VA office, or with the help of an accredited representative.",
+      "localHelp": "Contact a Veterans Service Organization (VSO), VA regional office, or accredited claims agent for free help.",
+      "officialUrl": "https://www.va.gov/disability/"
+    },
+    {
+      "id": "va-pension",
+      "category": "veterans",
+      "name": "VA Pension (including Aid and Attendance)",
+      "summary": "Needs-based monthly payments for wartime veterans with limited income who are 65+ or permanently disabled; higher amounts for those needing aid and attendance.",
+      "whoQualifies": "Wartime veterans meeting service, age/disability, and income/net-worth limits; discharged under conditions other than dishonorable.",
+      "documents": "DD214; proof of income and assets; medical evidence; proof of unreimbursed medical expenses.",
+      "howToApply": "Apply online at VA.gov or by mail using VA Form 21P-527EZ.",
+      "localHelp": "Contact a VA regional office or accredited Veterans Service Organization.",
+      "officialUrl": "https://www.va.gov/pension/"
+    },
+    {
+      "id": "gi-bill",
+      "category": "veterans",
+      "name": "GI Bill (VA Education Benefits)",
+      "summary": "Education and training benefits for veterans, service members, and qualifying family members.",
+      "whoQualifies": "Based on length and type of service; Post-9/11 GI Bill, Montgomery GI Bill, and dependents' programs have different rules.",
+      "documents": "DD214; school enrollment information; transcripts if transferring credits.",
+      "howToApply": "Apply online at VA.gov, by mail, or in person at a VA regional office.",
+      "localHelp": "Contact the school's certifying official or a VA education counselor.",
+      "officialUrl": "https://benefits.va.gov/gibill/"
+    },
+    {
+      "id": "voc-rehab",
+      "category": "disability",
+      "name": "State Vocational Rehabilitation Services",
+      "summary": "Free job training, counseling, and employment services to help people with disabilities get and keep jobs.",
+      "whoQualifies": "People with a physical or mental disability that creates a substantial barrier to employment, who can benefit from VR services.",
+      "documents": "Photo ID; disability documentation or medical records; Social Security number; education and work history.",
+      "howToApply": "Contact your state vocational rehabilitation agency to schedule an intake appointment.",
+      "localHelp": "Find your state VR agency using the directory below.",
+      "officialUrl": "https://rsa.ed.gov/about/offices"
+    }
+  ]
+}
