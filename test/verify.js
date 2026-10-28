@@ -31,6 +31,22 @@ check(/fns\.usda\.gov/.test(html) && /ssa\.gov/.test(html) && /va\.gov/.test(htm
 check(/client-side search/i.test(app) || /search-input/.test(app), "client-side search missing");
 check(/Copyright \(c\) 2026 Asdale Dynamics, LLC/.test(fs.readFileSync(path.join(ROOT, "LICENSE"), "utf8")), "LICENSE copyright line missing");
 
+// Link validation: every program must have an official https link on a .gov domain
+const programs = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "programs.json"), "utf8")).programs;
+let officialErrors = 0;
+for (const p of programs) {
+  const u = p.officialUrl || "";
+  if (!/^https:\/\//.test(u)) {
+    errors.push(`"${p.name}" officialUrl is not https: ${u}`);
+    officialErrors++;
+  }
+  if (!/\.gov(\/|$)/.test(u)) {
+    errors.push(`"${p.name}" officialUrl is not a .gov domain: ${u}`);
+    officialErrors++;
+  }
+}
+check(officialErrors === 0, `${programs.length} programs have valid official https .gov links`);
+
 if (errors.length) {
   console.error("VERIFICATION FAILED:");
   errors.forEach((e) => console.error(" - " + e));

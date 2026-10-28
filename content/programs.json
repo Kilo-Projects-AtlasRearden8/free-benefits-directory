@@ -174,7 +174,7 @@
       "documents": "Photo ID; proof of income or proof of participation in a qualifying program; address information.",
       "howToApply": "Apply online at LifelineSupport.org or through a participating phone/internet company.",
       "localHelp": "Contact participating wireless or internet providers in your area; call 2-1-1 for help.",
-      "officialUrl": "https://www.lifelinesupport.org"
+      "officialUrl": "https://www.fcc.gov/lifeline"
     },
     {
       "id": "tanf",
@@ -318,6 +318,17 @@
       "howToApply": "Contact your state vocational rehabilitation agency to schedule an intake appointment.",
       "localHelp": "Find your state VR agency using the directory below.",
       "officialUrl": "https://rsa.ed.gov/about/offices"
+    },
+    {
+      "id": "ticket-to-work",
+      "category": "disability",
+      "name": "Social Security Ticket to Work",
+      "summary": "Free employment support for Social Security disability beneficiaries (SSDI or SSI) who want to work, including job training, career counseling, and job placement.",
+      "whoQualifies": "People ages 18 through 64 who receive SSDI or SSI benefits because of a disability.",
+      "documents": "Social Security number; proof of SSDI or SSI benefit (award letter); photo ID.",
+      "howToApply": "Call the Ticket to Work Help Line or choose an Employment Network (EN) or State Vocational Rehabilitation agency as your service provider through the Choose Work website.",
+      "localHelp": "Call the Ticket to Work Help Line at 1-866-968-7842 or visit choosework.ssa.gov to find a local Employment Network.",
+      "officialUrl": "https://choosework.ssa.gov/"
     }
   ]
 }
